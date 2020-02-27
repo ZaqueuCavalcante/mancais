@@ -1,5 +1,5 @@
 function [] = plot_eixo(r_eixo, excent, ang_excent)
-    % Função para plotar o eixo na tela.
+    % Plota o eixo na tela.
     % O parâmetro ang_excent é o ângulo, em graus, que a linha da 
     % excêntricidade faz com o eixo x positivo.
     
@@ -8,5 +8,4 @@ function [] = plot_eixo(r_eixo, excent, ang_excent)
     
     plot_circunferencia(x, y, r_eixo);
     plot_linha(0, 0, x, y);
-
 end
