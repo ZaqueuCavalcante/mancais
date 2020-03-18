@@ -1,9 +1,12 @@
 function [visc] = visc_SAE(grau_oleo, temp_C)
     % Retorna a viscosidade de óleos SAE 10 a 60.
+    %
     % - - - > Parâmetros de entrada:
     % grau_oleo -> 10, 20, 30, 40, 50 ou 60.
     % temp_C -> temperatura do óleo - [°C].
-    % A viscosidade sai em Pa.s.
+    %
+    % < - - - Parâmetros de saída:
+    % visc -> viscosidade do óleo - [Pa.s].
     
     temp_F = 1.8*temp_C + 32;   % Conversão de °C para °F.
     
